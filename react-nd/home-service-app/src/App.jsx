@@ -1,15 +1,15 @@
 import React from "react";
-import "./App.css";
-import Topbar from "./components/topbar/Topbar";
-import Hero from "./components/hero/Hero";
-import CategoriesSection from "./components/categories-section/CategoriesSection";
+import "./App.scss";
+import { Topbar } from "./components/layout/Topbar";
+import { Hero } from "./components/hero/Hero";
+import { CategorySection } from "./components/categories/CategorySection";
 
 function App() {
   return (
     <>
       <Topbar />
       <Hero />
-      <CategoriesSection />
+      <CategorySection />
     </>
   );
 }
