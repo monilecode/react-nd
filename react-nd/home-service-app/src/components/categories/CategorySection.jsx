@@ -3,7 +3,7 @@ import styles from "./CategorySection.module.scss";
 import { CategoryCard } from "./CategoryCard";
 import { categoryData } from "../../data/Data";
 
-export function CategorySection() {
+export const CategorySection = () => {
   return (
     <section className={styles.categorySection}>
       {categoryData.map((category) => (
@@ -11,4 +11,4 @@ export function CategorySection() {
       ))}
     </section>
   );
-}
+};

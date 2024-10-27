@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./Topbar.module.scss";
+import { Link } from "react-router-dom";
 
-export function Topbar() {
+export const Topbar = () => {
   return (
     <header className={styles.topbar}>
       <div className={styles.nav__box}>
@@ -11,18 +12,18 @@ export function Topbar() {
           alt="logo"
         />
         <nav className={styles.nav}>
-          <a className={styles.a} to="#">
+          <Link className={styles.a} to="/">
             Home
-          </a>
-          <a className={styles.a} to="#">
+          </Link>
+          <Link className={styles.a} to="services">
             Services
-          </a>
-          <a className={styles.a} to="#">
+          </Link>
+          <Link className={styles.a} to="about">
             About Us
-          </a>
+          </Link>
         </nav>
       </div>
       <button className={styles.btn}>Login/Sign Up</button>
     </header>
   );
-}
+};

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Search.module.scss";
 
-export function Search() {
+export const Search = () => {
   return <input className={styles.input}></input>;
-}
+};

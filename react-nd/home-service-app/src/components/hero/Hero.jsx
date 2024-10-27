@@ -2,7 +2,7 @@ import React from "react";
 import { Search } from "./Search";
 import styles from "./Hero.module.scss";
 
-export function Hero() {
+export const Hero = () => {
   return (
     <>
       <h1 className={styles.h1}>
@@ -11,4 +11,4 @@ export function Hero() {
       <Search />
     </>
   );
-}
+};
