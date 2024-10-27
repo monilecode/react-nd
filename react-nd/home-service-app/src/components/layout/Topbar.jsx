@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Topbar.module.scss";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export const Topbar = () => {
   return (
@@ -12,15 +12,21 @@ export const Topbar = () => {
           alt="logo"
         />
         <nav className={styles.nav}>
-          <Link className={styles.a} to="/">
+          <NavLink to="/" className={(isActive) => isActive && styles.active}>
             Home
-          </Link>
-          <Link className={styles.a} to="services">
+          </NavLink>
+          <NavLink
+            to="/services"
+            className={(isActive) => isActive && styles.active}
+          >
             Services
-          </Link>
-          <Link className={styles.a} to="about">
+          </NavLink>
+          <NavLink
+            to="/about"
+            className={(isActive) => isActive && styles.active}
+          >
             About Us
-          </Link>
+          </NavLink>
         </nav>
       </div>
       <button className={styles.btn}>Login/Sign Up</button>
