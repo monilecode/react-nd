@@ -1,0 +1,21 @@
+.hero {
+  min-height: calc(20rem);
+  padding: 6rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0891b2;
+  h1 {
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    span {
+      color: #a3e635;
+    }
+  }
+  h3 {
+    padding: 2rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+}

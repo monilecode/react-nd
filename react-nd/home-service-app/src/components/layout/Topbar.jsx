@@ -1,14 +1,15 @@
 import React from "react";
 import styles from "./Topbar.module.scss";
 import { NavLink } from "react-router-dom";
+import { Login } from "./Login";
 
 export const Topbar = () => {
   return (
     <header className={styles.topbar}>
-      <div className={styles.navBox}>
+      <div className={styles.navBlock}>
         <img
           className={styles.logo}
-          src="./src/components/layout/logo.svg"
+          src="./src/components/layout/images/logo.png"
           alt="logo"
         />
         <nav className={styles.nav}>
@@ -32,7 +33,7 @@ export const Topbar = () => {
           </NavLink>
         </nav>
       </div>
-      <button className={styles.btn}>Login/Sign Up</button>
+      <Login />
     </header>
   );
 };

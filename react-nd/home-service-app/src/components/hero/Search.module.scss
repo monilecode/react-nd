@@ -1,0 +1,26 @@
+.searchBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+  .input {
+    padding: 1rem;
+
+    border-radius: 2rem;
+    width: 25rem;
+    font-size: 1rem;
+    border: none;
+  }
+  .btn {
+    background-color: #a3e635;
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+}

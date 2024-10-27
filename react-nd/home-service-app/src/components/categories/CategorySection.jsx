@@ -6,8 +6,13 @@ import { categoryData } from "../../data/Data";
 export const CategorySection = () => {
   return (
     <section className={styles.categorySection}>
-      {categoryData.map((category) => (
-        <CategoryCard key={category.id} heading={category.heading} />
+      {categoryData.map((item) => (
+        <CategoryCard
+          key={item.id}
+          heading={item.category}
+          icon={item.icon}
+          alt={item.alt}
+        />
       ))}
     </section>
   );

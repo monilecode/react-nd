@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { AboutPage } from "../pages/AboutPage";
-import { ServicesPage } from "../pages/ServicesPage";
-import { HomePage } from "../pages/HomePage";
-import { Topbar } from "../components/layout/Topbar";
 import { BaseLayout } from "../components/layout/BaseLayout";
+import { HomePage } from "../pages/HomePage";
+import { ServicesPage } from "../pages/ServicesPage";
+import { AboutPage } from "../pages/AboutPage";
+import { LoginPage } from "../pages/LoginPage";
 
 const Router = createBrowserRouter([
   {
@@ -14,6 +14,7 @@ const Router = createBrowserRouter([
       { path: "/", Component: HomePage },
       { path: "/services", Component: ServicesPage },
       { path: "/about", Component: AboutPage },
+      { path: "/login", Component: LoginPage },
     ],
   },
 ]);
