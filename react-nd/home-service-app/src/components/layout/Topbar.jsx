@@ -5,25 +5,28 @@ import { NavLink } from "react-router-dom";
 export const Topbar = () => {
   return (
     <header className={styles.topbar}>
-      <div className={styles.nav__box}>
+      <div className={styles.navBox}>
         <img
           className={styles.logo}
           src="./src/components/layout/logo.svg"
           alt="logo"
         />
         <nav className={styles.nav}>
-          <NavLink to="/" className={(isActive) => isActive && styles.active}>
+          <NavLink
+            to="/"
+            className={({ isActive }) => (isActive ? styles.active : "")}
+          >
             Home
           </NavLink>
           <NavLink
             to="/services"
-            className={(isActive) => isActive && styles.active}
+            className={({ isActive }) => (isActive ? styles.active : "")}
           >
             Services
           </NavLink>
           <NavLink
             to="/about"
-            className={(isActive) => isActive && styles.active}
+            className={({ isActive }) => (isActive ? styles.active : "")}
           >
             About Us
           </NavLink>
