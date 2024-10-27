@@ -18,8 +18,10 @@
     }
     a {
       font-size: 1.2rem;
+      &:hover,
       &.active {
-        color: rgb(71, 71, 71);
+        color: #84cc16;
+        border-bottom: 2px solid #84cc16;
       }
     }
   }
