@@ -41,7 +41,7 @@ export const serviceData = [
   {
     id: 1,
     heading: "House Cleaning",
-    img: "cleaning.jpg",
+    img: "./src/components/services/images/1.jpg",
     name: "Žmogus Žmoginskas",
     address: "Kauno g. 23, Kaunas",
     category: "Cleaning",
@@ -49,7 +49,7 @@ export const serviceData = [
   {
     id: 2,
     heading: "Bathroom Cleaning",
-    img: "bathroom.jpg",
+    img: "./src/components/services/images/2.jpg",
     name: "Žmogus Žmoginskas",
     address: "Žemaiciu g. 1, Kaunas",
     category: "Cleaning",
@@ -57,7 +57,7 @@ export const serviceData = [
   {
     id: 3,
     heading: "Floor Cleaning",
-    img: "floor.jpg",
+    img: "./src/components/services/images/2.jpg",
     name: "Žmogus Žmoginskas",
     address: "Basanaiciu g. 1-3, Kaunas",
     category: "Cleaning",
@@ -65,22 +65,22 @@ export const serviceData = [
   {
     id: 4,
     heading: "Washing Clothes",
-    img: "floor.jpg",
+    img: "./src/components/services/images/4.jpg",
     address: "Trakų g. 19-88, Marijampolė",
     category: "Cleaning",
   },
   {
     id: 5,
     heading: "House Repairing",
-    img: "floor.jpg",
+    img: "./src/components/services/images/4.jpg",
     name: "Žmogus Žmoginskas",
     address: "Mažeikių g. 38-40, Vilnius",
-    Category: "Repair",
+    category: "Repair",
   },
   {
     id: 6,
     heading: "House Painting",
-    img: "floor.jpg",
+    img: "./src/components/services/images/1.jpg",
     name: "Žmogus Žmoginskas",
     address: "Pavilionio g. 14-66, Vilnius",
     category: "Painting",
@@ -88,7 +88,7 @@ export const serviceData = [
   {
     id: 7,
     heading: "Moving Services",
-    img: "floor.jpg",
+    img: "./src/components/services/images/1.jpg",
     name: "Žmogus Žmoginskas",
     address: "Statybų g. 20, Vilnius",
     category: "Shifting",
@@ -96,7 +96,7 @@ export const serviceData = [
   {
     id: 8,
     heading: "Home Plumber",
-    img: "floor.jpg",
+    img: "./src/components/services/images/1.jpg",
     name: "Žmogus Žmoginskas",
     address: "Piemenų g. 13, Vilnius",
     category: "Plumbing",
@@ -104,7 +104,7 @@ export const serviceData = [
   {
     id: 9,
     heading: "Home Electrician",
-    img: "floor.jpg",
+    img: "./src/components/services/images/1.jpg",
     name: "Žmogus Žmoginskas",
     address: "Petro Povilo g. 100b-20, Vilnius",
     category: "Electric",

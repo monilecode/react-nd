@@ -5,12 +5,13 @@
   color: #374151;
 }
 
-body {
+body,
+html {
   margin: 0 auto;
   padding: 0 0;
   font-family: "Roboto", sans-serif;
   line-height: 1;
-  text-align: center;
+  overflow-x: hidden;
 }
 
 a {
@@ -25,9 +26,14 @@ input {
 
 button {
   cursor: pointer;
+  background-color: transparent;
 }
 
 ul,
 ol {
   list-style: none;
+}
+
+img {
+  display: inline-block;
 }
