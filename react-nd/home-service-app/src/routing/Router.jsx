@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { AboutPage } from "../pages/about-page";
-import { ServicesPage } from "../pages/services-page";
-import { HomePage } from "../pages/home-page";
+import { AboutPage } from "../pages/AboutPage";
+import { ServicesPage } from "../pages/ServicesPage";
+import { HomePage } from "../pages/HomePage";
 import { Topbar } from "../components/layout/Topbar";
 import { BaseLayout } from "../components/layout/BaseLayout";
 
