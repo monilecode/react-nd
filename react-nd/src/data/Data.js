@@ -1,37 +1,37 @@
 export const categoryData = [
   {
     id: 1,
-    category: "Cleaning",
+    category: "cleaning",
     icon: "./src/components/categories/images/cleaning.png",
     alt: "cleaning",
   },
   {
     id: 2,
-    category: "Repair",
+    category: "repair",
     icon: "./src/components/categories/images/repair.png",
     alt: "repair",
   },
   {
     id: 3,
-    category: "Painting",
+    category: "painting",
     icon: "./src/components/categories/images/painting.png",
     alt: "painting",
   },
   {
     id: 4,
-    category: "Shifting",
+    category: "shifting",
     icon: "./src/components/categories/images/shifting.png",
     alt: "shifting",
   },
   {
     id: 5,
-    category: "Plumbing",
+    category: "plumbing",
     icon: "./src/components/categories/images/plumbing.png",
     alt: "plumbing",
   },
   {
     id: 6,
-    category: "Electric",
+    category: "electric",
     icon: "./src/components/categories/images/electric.png",
     alt: "electric",
   },

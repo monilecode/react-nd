@@ -9,7 +9,7 @@ export const Topbar = () => {
       <div className={styles.navBlock}>
         <img
           className={styles.logo}
-          src="./src/components/layout/images/logo.svg"
+          src="/src/components/layout/images/logo.svg"
           alt="logo"
         />
         <nav className={styles.nav}>

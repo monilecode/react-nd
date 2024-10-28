@@ -9,7 +9,7 @@ export const CategorySection = () => {
       {categoryData.map((item) => (
         <CategoryCard
           key={item.id}
-          heading={item.category}
+          category={item.category}
           icon={item.icon}
           alt={item.alt}
         />

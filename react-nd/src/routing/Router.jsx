@@ -5,7 +5,7 @@ import { HomePage } from "../pages/HomePage";
 import { ServicesPage } from "../pages/ServicesPage";
 import { AboutPage } from "../pages/AboutPage";
 import { LoginPage } from "../pages/LoginPage";
-import { SearchPage } from "../pages/SearchPage";
+import { SearchCategory } from "../pages/SearchCategory";
 import { RegisterPage } from "../pages/RegisterPage";
 
 const Router = createBrowserRouter([
@@ -17,7 +17,7 @@ const Router = createBrowserRouter([
       { path: "/services", Component: ServicesPage },
       { path: "/about", Component: AboutPage },
       { path: "/login", Component: LoginPage },
-      { path: "/search", Component: SearchPage },
+      { path: "/search/:category", Component: SearchCategory },
       { path: "/register", Component: RegisterPage },
     ],
   },
