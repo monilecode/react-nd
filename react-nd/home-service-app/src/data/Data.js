@@ -44,7 +44,7 @@ export const serviceData = [
     img: "./src/components/services/images/1.jpg",
     name: "Žmogus Žmoginskas",
     address: "Kauno g. 23, Kaunas",
-    category: "Cleaning",
+    categoryTag: "Cleaning",
   },
   {
     id: 2,
@@ -52,7 +52,7 @@ export const serviceData = [
     img: "./src/components/services/images/2.jpg",
     name: "Žmogus Žmoginskas",
     address: "Žemaiciu g. 1, Kaunas",
-    category: "Cleaning",
+    categoryTag: "Cleaning",
   },
   {
     id: 3,
@@ -60,14 +60,14 @@ export const serviceData = [
     img: "./src/components/services/images/2.jpg",
     name: "Žmogus Žmoginskas",
     address: "Basanaiciu g. 1-3, Kaunas",
-    category: "Cleaning",
+    categoryTag: "Cleaning",
   },
   {
     id: 4,
     heading: "Washing Clothes",
     img: "./src/components/services/images/4.jpg",
     address: "Trakų g. 19-88, Marijampolė",
-    category: "Cleaning",
+    categoryTag: "Cleaning",
   },
   {
     id: 5,
@@ -75,7 +75,7 @@ export const serviceData = [
     img: "./src/components/services/images/4.jpg",
     name: "Žmogus Žmoginskas",
     address: "Mažeikių g. 38-40, Vilnius",
-    category: "Repair",
+    categoryTag: "Repair",
   },
   {
     id: 6,
@@ -83,7 +83,7 @@ export const serviceData = [
     img: "./src/components/services/images/1.jpg",
     name: "Žmogus Žmoginskas",
     address: "Pavilionio g. 14-66, Vilnius",
-    category: "Painting",
+    categoryTag: "Painting",
   },
   {
     id: 7,
@@ -91,7 +91,7 @@ export const serviceData = [
     img: "./src/components/services/images/1.jpg",
     name: "Žmogus Žmoginskas",
     address: "Statybų g. 20, Vilnius",
-    category: "Shifting",
+    categoryTag: "Shifting",
   },
   {
     id: 8,
@@ -99,14 +99,6 @@ export const serviceData = [
     img: "./src/components/services/images/1.jpg",
     name: "Žmogus Žmoginskas",
     address: "Piemenų g. 13, Vilnius",
-    category: "Plumbing",
-  },
-  {
-    id: 9,
-    heading: "Home Electrician",
-    img: "./src/components/services/images/1.jpg",
-    name: "Žmogus Žmoginskas",
-    address: "Petro Povilo g. 100b-20, Vilnius",
-    category: "Electric",
+    categoryTag: "Plumbing",
   },
 ];

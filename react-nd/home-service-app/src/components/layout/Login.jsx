@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { Button } from "../abstract/Button";
-import styles from "../abstract/Button.module.scss";
+import { Button } from "../abstracts/Button";
+import styles from "../abstracts/Button.module.scss";
 
 export const Login = () => {
   const navigateToLogin = useNavigate();
@@ -11,11 +11,6 @@ export const Login = () => {
   };
 
   return (
-    <Button
-      className={styles.btn}
-      onClick={handleLogin}
-      text="Login / Sign Up"
-      navigateTo="/login"
-    />
+    <Button className={styles.btn} event={handleLogin} text="Login / Sign Up" />
   );
 };

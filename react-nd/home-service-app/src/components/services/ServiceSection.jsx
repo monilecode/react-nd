@@ -14,8 +14,10 @@ export const ServiceSection = () => {
             className={styles.card}
             key={item.id}
             img={item.img}
+            heading={item.heading}
             name={item.name}
             address={item.address}
+            categoryTag={item.categoryTag}
           />
         ))}
       </div>

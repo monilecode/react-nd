@@ -11,7 +11,6 @@ html {
   padding: 0 0;
   font-family: "Roboto", sans-serif;
   line-height: 1;
-  overflow-x: hidden;
 }
 
 a {
@@ -36,4 +35,8 @@ ol {
 
 img {
   display: inline-block;
+}
+
+h1 {
+  text-align: center;
 }
