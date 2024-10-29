@@ -3,13 +3,18 @@ import styles from "./ServiceSection.module.scss";
 import { ServiceCard } from "./ServiceCard";
 import { serviceData } from "../../data/Data";
 
-export const ServiceSection = () => {
+export const ServiceSection = ({ selectedCategory, filterServices }) => {
+  const filteredServices = filterServices
+    ? serviceData.filter(
+        (service) =>
+          service.categoryTag.toLowerCase() === selectedCategory.toLowerCase()
+      )
+    : serviceData;
+
   return (
     <section className={styles.serviceSection}>
-      <h3>Popular Businesses</h3>
-
       <div className={styles.serviceContent}>
-        {serviceData.map((item) => (
+        {filteredServices.map((item) => (
           <ServiceCard
             className={styles.card}
             key={item.id}

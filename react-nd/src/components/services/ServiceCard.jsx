@@ -5,11 +5,13 @@ import { Button } from "../abstracts/Button";
 export const ServiceCard = (serviceProps) => {
   return (
     <div className={styles.card}>
-      <img
-        className={styles.img}
-        src={serviceProps.img}
-        alt={serviceProps.alt}
-      />
+      <div className={styles.imgContainer}>
+        <img
+          className={styles.img}
+          src={serviceProps.img}
+          alt={serviceProps.alt}
+        />
+      </div>
 
       <div className={styles.textBox}>
         <p className={styles.categoryTag}>{serviceProps.categoryTag}</p>

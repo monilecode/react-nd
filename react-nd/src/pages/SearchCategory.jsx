@@ -1,13 +1,15 @@
-// Import necessary hooks
 import React from "react";
 import { useParams } from "react-router-dom";
+import { CategorySection } from "../components/categories/CategorySection";
+import { ServiceSection } from "../components/services/ServiceSection";
 
 export const SearchCategory = () => {
   const { category } = useParams();
 
   return (
-    <div>
-      <h1>Search Results for category: {category}</h1>
-    </div>
+    <section className="searchCategory">
+      <CategorySection isVertical={true} />
+      <ServiceSection filterServices={true} selectedCategory={category} />
+    </section>
   );
 };

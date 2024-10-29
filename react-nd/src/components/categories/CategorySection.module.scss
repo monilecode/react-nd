@@ -4,3 +4,14 @@
   justify-content: space-between;
   gap: 1rem;
 }
+
+.vertical {
+  grid-template-columns: 1fr;
+  place-content: start;
+  div {
+    flex-direction: row;
+    &:hover {
+      transform: none;
+    }
+  }
+}

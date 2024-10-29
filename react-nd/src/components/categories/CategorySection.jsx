@@ -3,17 +3,23 @@ import styles from "./CategorySection.module.scss";
 import { CategoryCard } from "./CategoryCard";
 import { categoryData } from "../../data/Data";
 
-export const CategorySection = () => {
+export const CategorySection = ({ isVertical }) => {
   return (
-    <section className={styles.categorySection}>
-      {categoryData.map((item) => (
-        <CategoryCard
-          key={item.id}
-          category={item.category}
-          icon={item.icon}
-          alt={item.alt}
-        />
-      ))}
-    </section>
+    <div className="container">
+      <section
+        className={`${styles.categorySection} ${
+          isVertical ? styles.vertical : ""
+        }`}
+      >
+        {categoryData.map((item) => (
+          <CategoryCard
+            key={item.id}
+            category={item.category}
+            icon={item.icon}
+            alt={item.alt}
+          />
+        ))}
+      </section>
+    </div>
   );
 };

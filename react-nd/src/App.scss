@@ -40,3 +40,14 @@ img {
 h1 {
   text-align: center;
 }
+
+.searchCategory {
+  display: flex;
+  div {
+    flex-direction: column;
+  }
+}
+
+.container {
+  padding: 4rem;
+}

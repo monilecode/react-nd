@@ -2,37 +2,37 @@ export const categoryData = [
   {
     id: 1,
     category: "cleaning",
-    icon: "./src/components/categories/images/cleaning.png",
+    icon: "/src/components/categories/images/cleaning.png",
     alt: "cleaning",
   },
   {
     id: 2,
     category: "repair",
-    icon: "./src/components/categories/images/repair.png",
+    icon: "/src/components/categories/images/repair.png",
     alt: "repair",
   },
   {
     id: 3,
     category: "painting",
-    icon: "./src/components/categories/images/painting.png",
+    icon: "/src/components/categories/images/painting.png",
     alt: "painting",
   },
   {
     id: 4,
     category: "shifting",
-    icon: "./src/components/categories/images/shifting.png",
+    icon: "/src/components/categories/images/shifting.png",
     alt: "shifting",
   },
   {
     id: 5,
     category: "plumbing",
-    icon: "./src/components/categories/images/plumbing.png",
+    icon: "/src/components/categories/images/plumbing.png",
     alt: "plumbing",
   },
   {
     id: 6,
     category: "electric",
-    icon: "./src/components/categories/images/electric.png",
+    icon: "/src/components/categories/images/electric.png",
     alt: "electric",
   },
 ];
@@ -41,7 +41,7 @@ export const serviceData = [
   {
     id: 1,
     heading: "House Cleaning",
-    img: "./src/components/services/images/1.jpg",
+    img: "/src/components/services/images/1.jpg",
     name: "Žmogus Žmoginskas",
     address: "Kauno g. 23, Kaunas",
     categoryTag: "Cleaning",
@@ -49,7 +49,7 @@ export const serviceData = [
   {
     id: 2,
     heading: "Bathroom Cleaning",
-    img: "./src/components/services/images/2.jpg",
+    img: "/src/components/services/images/2.jpg",
     name: "Žmogus Žmoginskas",
     address: "Žemaiciu g. 1, Kaunas",
     categoryTag: "Cleaning",
@@ -57,7 +57,7 @@ export const serviceData = [
   {
     id: 3,
     heading: "Floor Cleaning",
-    img: "./src/components/services/images/2.jpg",
+    img: "/src/components/services/images/2.jpg",
     name: "Žmogus Žmoginskas",
     address: "Basanaiciu g. 1-3, Kaunas",
     categoryTag: "Cleaning",
@@ -65,14 +65,14 @@ export const serviceData = [
   {
     id: 4,
     heading: "Washing Clothes",
-    img: "./src/components/services/images/4.jpg",
+    img: "/src/components/services/images/4.jpg",
     address: "Trakų g. 19-88, Marijampolė",
     categoryTag: "Cleaning",
   },
   {
     id: 5,
     heading: "House Repairing",
-    img: "./src/components/services/images/4.jpg",
+    img: "/src/components/services/images/4.jpg",
     name: "Žmogus Žmoginskas",
     address: "Mažeikių g. 38-40, Vilnius",
     categoryTag: "Repair",
@@ -80,7 +80,7 @@ export const serviceData = [
   {
     id: 6,
     heading: "House Painting",
-    img: "./src/components/services/images/1.jpg",
+    img: "/src/components/services/images/1.jpg",
     name: "Žmogus Žmoginskas",
     address: "Pavilionio g. 14-66, Vilnius",
     categoryTag: "Painting",
@@ -88,7 +88,7 @@ export const serviceData = [
   {
     id: 7,
     heading: "Moving Services",
-    img: "./src/components/services/images/1.jpg",
+    img: "/src/components/services/images/1.jpg",
     name: "Žmogus Žmoginskas",
     address: "Statybų g. 20, Vilnius",
     categoryTag: "Shifting",
@@ -96,7 +96,7 @@ export const serviceData = [
   {
     id: 8,
     heading: "Home Plumber",
-    img: "./src/components/services/images/1.jpg",
+    img: "/src/components/services/images/1.jpg",
     name: "Žmogus Žmoginskas",
     address: "Piemenų g. 13, Vilnius",
     categoryTag: "Plumbing",
